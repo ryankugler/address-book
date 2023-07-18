@@ -1,6 +1,4 @@
 const ContactCard = ({ contactList, onCardClick }) => {
-  contactList ? console.log(contactList) : console.log("Error: No Contact List");
-
   return (
     <>
       {contactList?.map((contact, index) => (

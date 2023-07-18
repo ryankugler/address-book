@@ -16,7 +16,6 @@ const contactList = [
   ];
 test("renders App component without crashing", () => {
   render(<App />);
-  // No need to make any assertions as the test will fail if there's an error during rendering
 });
 
 test("renders search input", () => {

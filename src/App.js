@@ -6,23 +6,23 @@ import ContactDetails from "./components/ContactDetails"
 const App = () => {
   const API_URL = "https://randomuser.me/api"
   const {error, data } = useFetch(API_URL + "?results=100")
-  data ? console.log(data) : console.log(error)
+  data? console.log(data) : console.log(error? error: "No data available upon request")
   const [contactList, setContactList] = useState(null)
   const [filterQuery, setFilterQuery] = useState(null)
   const [selectedContact, setSelectedContact] = useState(null)
 
   useEffect(() => {
     if (filterQuery) {
-      const inputString = filterQuery.toLowerCase();
+      const inputString = filterQuery.toLowerCase()
       const filteredData = data?.results?.filter((contact) => {
         const name = `${contact?.name.first} ${contact.name.last}`
         if (inputString.length === 1) {
           const firstLetter = name.charAt(0).toLowerCase()
-          return firstLetter === inputString;
+          return firstLetter === inputString
         } else {
           return name.toLowerCase().includes(inputString)
         }
-      });
+      })
       setContactList(filteredData)
     } else {
       setContactList(data?.results)

@@ -1,5 +1,5 @@
-import Button from '@mui/material/Button';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import Button from '@mui/material/Button'
+import ArrowBackIcon from '@mui/icons-material/ArrowBack'
 const ContactDetails = ({ contact, onGoBack }) => {
   const dob = new Date(contact.dob.date).toLocaleDateString()
 
