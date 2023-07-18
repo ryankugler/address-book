@@ -15,13 +15,13 @@ The app is also entirely responsive, optimized for viewing on different sized sc
 While creating the application, I thought of some features that I believe could be easily implemented that could drastically improve the overall functionality and user experience of the application. These features included:
 
 - Autocomplete functionality for the search bar `Agile Cost: 1`
---Time Estimate: Minimal, MaterialUI has an autocompleting component that could be leveraged 
+  - Time Estimate: Minimal, MaterialUI has an autocompleting component that could be leveraged 
 - Sorting contacts by name `Agile Cost: 1`
 - Favorite contact system `Agile Cost: 2`
 - Edit/Save Info on Contact Card `Agile Cost: 3-5`
---Would require database integration, as well as user-authentication for personalized contact cards 
+  - Would require database integration, as well as user-authentication for personalized contact cards 
 - Standardize phone numbers `Agile Cost: 1`
---Requires minimal logic, more of a preference for cleaner UI. 
+  - Requires minimal logic, more of a preference for cleaner UI. 
 
 #### Robustness
 
