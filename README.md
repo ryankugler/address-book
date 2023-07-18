@@ -1,4 +1,38 @@
-# Getting Started with Create React App
+# Address Book App
+
+This project is an address book application created in React using TailwindCSS, MaterialUI and the API endpoints from `https://randomuser.me/`
+
+## Summary of Assignment
+
+I began by laying the groundwork for what I believe an address book application should look like, focusing on the main functionality with a clean, lightweight UI. 
+
+In an address book, I ideally wanted to be able to search the desired contact's name and have the result populate the screen, so that lookup-time would be minimized. Ultimately creating a more user-friendly experience (rather than having to scroll the list of contacts to find someone's contact card). I prioritized the search feature and I also implemented a dedicated page that displays the details of a user when their contact card is clicked. This simplifies the initial application, since there isn't a logjam of information on the initial page, while keeping it simple enough to retrieve necessary information.
+
+The app is also entirely responsive, optimized for viewing on different sized screens.
+
+#### Future Goals for the Application
+
+While creating the application, I thought of some features that I believe could be easily implemented that could drastically improve the overall functionality and user experience of the application. These features included:
+
+- Autocomplete functionality for the search bar `Agile Cost: 1`
+--Time Estimate: Minimal, MaterialUI has an autocompleting component that could be leveraged 
+- Sorting contacts by name `Agile Cost: 1`
+- Favorite contact system `Agile Cost: 2`
+- Edit/Save Info on Contact Card `Agile Cost: 3-5`
+--Would require database integration, as well as user-authentication for personalized contact cards 
+- Standardize phone numbers `Agile Cost: 1`
+--Requires minimal logic, more of a preference for cleaner UI. 
+
+#### Robustness
+
+Given more time, my goal would be to enhance the error handling capabilities of the application. Improved error handling would theoretically help with bug-fixes, which could ultimately minimize downtime if issues were to be found on production
+
+I would also like to add a more diverse and pedantic test-suite. This would again ensure that defects in functionality are not overlooked while still in the development cycle. 
+
+Technical documentation outlining project architecture and future, allowing potential team members context on the application's lifecycle, as well as short-term and long-term goals. 
+
+---
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
