@@ -1,7 +1,7 @@
 import React from "react";
 import { render , screen, fireEvent, waitFor } from "@testing-library/react";
-import App from "./App.js";
-import ContactCard from "./components/ContactCard.jsx";
+import App from "../App.js";
+import ContactCard from "../components/ContactCard.jsx";
 import userEvent from "@testing-library/user-event";
 
 const contactList = [

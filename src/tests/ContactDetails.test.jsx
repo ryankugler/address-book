@@ -2,7 +2,7 @@
 
 import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
-import ContactDetails from "./ContactDetails"; // Adjust the path to the actual location of ContactDetails.js
+import ContactDetails from "../components/ContactDetails"; // Adjust the path to the actual location of ContactDetails.js
 
 test("renders contact details correctly", () => {
   // Sample contact data for testing

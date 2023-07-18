@@ -2,7 +2,7 @@
 
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import ContactCard from "./ContactCard"; // Adjust the path to the actual location of ContactCard.js
+import ContactCard from "../components/ContactCard"; // Adjust the path to the actual location of ContactCard.js
 
 test("renders contact cards with correct names", () => {
   // Sample data for testing
